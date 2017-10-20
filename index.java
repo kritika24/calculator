@@ -1,5 +1,5 @@
 import javax.swing.*;    
-public class ButtonExample {  
+public class calc {  
 public static void main(String[] args) {  
     JFrame f=new JFrame("CALCULATOR");  
     JButton b=new JButton("1");  
@@ -8,20 +8,47 @@ public static void main(String[] args) {
     JButton e=new JButton("4");
     JButton g=new JButton("5");
     JButton a=new JButton("6");
-    b.setBounds(50,100,95,30);
-    c.setBounds(50,100,95,30);
-    d.setBounds(50,100,95,30);
-    e.setBounds(50,100,95,30);
-    g.setBounds(50,100,95,30);
-    a.setBounds(50,100,95,30);
+    JButton h=new JButton("7");
+    JButton i=new JButton("8");
+    JButton j=new JButton("9");
+    JButton k=new JButton("+");
+    JButton l=new JButton("-");
+    JButton m=new JButton("X");
+    JButton n=new JButton("/");
+    JButton o=new JButton("%");
+    JButton p=new JButton("^");
+    b.setBounds(50,100,80,30);
+    c.setBounds(130,100,80,30);
+    d.setBounds(210,100,80,30);
+    e.setBounds(50,130,80,30);
+    g.setBounds(130,130,80,30);
+    a.setBounds(210,130,80,30);
+    h.setBounds(50,160,80,30);
+    i.setBounds(130,160,80,30);
+    j.setBounds(210,160,80,30);
+    k.setBounds(290,100,80,30);
+    l.setBounds(370,100,80,30);
+    m.setBounds(290,130,80,30);
+    n.setBounds(370,130,80,30);
+    o.setBounds(290,160,80,30);
+    p.setBounds(370,160,80,30);
+    f.add(o);
+    f.add(p);
     f.add(b);
     f.add(c);
     f.add(d);
     f.add(e);
     f.add(g);
     f.add(a);
-    f.setSize(400,400);  
+    f.add(h);
+    f.add(i);
+    f.add(j);
+    f.add(k);
+    f.add(l);
+    f.add(m);
+    f.add(n);
+    f.setSize(500,400);  
     f.setLayout(null);  
     f.setVisible(true);   
 }  
-}  
+} 
