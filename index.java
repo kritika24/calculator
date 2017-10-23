@@ -2,7 +2,13 @@ import javax.swing.*;
 import java.awt.*;
 public class calc {  
 public static void main(String[] args) {  
-    JFrame f=new JFrame("CALCULATOR");  
+    JFrame f=new JFrame("CALCULATOR");
+    info = new JTextField();
+    info.setFont(new Font("SansSerif", Font.PLAIN, 16));
+    info.setBackground(Color.blue);
+    info.setPreferredSize(new Dimension(270, 35));
+    info.addActionListener(this);
+    f.add(info);
     JButton b=new JButton("1");  
     JButton c=new JButton("2");
     JButton d=new JButton("3");
