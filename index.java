@@ -1,4 +1,5 @@
-import javax.swing.*;    
+import javax.swing.*; 
+import java.awt.*;
 public class calc {  
 public static void main(String[] args) {  
     JFrame f=new JFrame("CALCULATOR");  
